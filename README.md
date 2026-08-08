@@ -33,7 +33,16 @@
 <h2>📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aadrit1234&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aadrit1234&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
-  <img src="https://streak-stats.demolab.com/?user=Aadrit1234&theme=dracula&hide_border=true" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Aadrit1234&show_icons=true&theme=dracula&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Aadrit1234&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Aadrit1234&layout=compact&theme=dracula&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aadrit1234&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Aadrit1234&theme=dracula&hide_border=true" />
+    <img src="https://streak-stats.demolab.com/?user=Aadrit1234&theme=default&hide_border=true" alt="GitHub Streak" />
+  </picture>
 </p>
