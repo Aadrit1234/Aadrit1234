@@ -27,7 +27,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd dist
+          mkdir -p site
+          cp dist/*.svg site/
+          cd site
           git init -q
           git checkout -q -b output
           git config user.name "github-actions[bot]"
