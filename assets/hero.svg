@@ -1,97 +1,207 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Aadrit — full-stack engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Aadrit — Full-Stack Engineer">
   <defs>
-    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8B7CFF"/>
-      <stop offset="45%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#FF4D8D"/>
+      <stop offset="30%" stop-color="#22D3EE"/>
+      <stop offset="60%" stop-color="#FF4D8D"/>
+      <stop offset="100%" stop-color="#8B7CFF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="sub" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8B7CFF"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
+      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#8B7CFF"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="80%" stop-color="#FF4D8D"/>
+      <stop offset="100%" stop-color="#FF4D8D" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#8B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8B7CFF" stop-opacity="0"/>
     </linearGradient>
 
     <radialGradient id="orbA" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.55"/>
+      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#8B7CFF" stop-opacity="0"/>
     </radialGradient>
-
     <radialGradient id="orbB" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-
     <radialGradient id="orbC" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FF4D8D" stop-opacity="0.40"/>
+      <stop offset="0%" stop-color="#FF4D8D" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#FF4D8D" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="orbD" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#28C840" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#28C840" stop-opacity="0"/>
+    </radialGradient>
 
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#8B9BB4" stroke-opacity="0.13" stroke-width="1"/>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#8B9BB4" stroke-opacity="0.14" stroke-width="1"/>
     </pattern>
 
-    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="34"/>
+    <filter id="soft" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="40"/>
     </filter>
 
-    <clipPath id="frame">
-      <rect x="0" y="0" width="1200" height="320" rx="26"/>
-    </clipPath>
+    <filter id="textglow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="360" rx="28"/></clipPath>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; }
+      @media (prefers-color-scheme: dark) {
+        .sub  { fill: #A6B3C9; }
+        .card { fill: #080D1A; fill-opacity: 0.74; stroke-opacity: 0.14; }
+        .chip { fill: #101827; fill-opacity: 0.8; stroke-opacity: 0.18; }
+        .chipT{ fill: #B7C3D6; }
+        .dot  { fill-opacity: 0.9; }
+      }
+      @media (prefers-color-scheme: light) {
+        .sub  { fill: #46536B; }
+        .card { fill: #FFFFFF; fill-opacity: 0.8; stroke-opacity: 0.2; }
+        .chip { fill: #F4F6FB; fill-opacity: 0.9; stroke-opacity: 0.25; }
+        .chipT{ fill: #3B4658; }
+        .dot  { fill-opacity: 0.75; }
+      }
+    </style>
   </defs>
 
-  <style>
-    .glow { mix-blend-mode: screen; }
-    @media (prefers-color-scheme: dark) {
-      .sub { fill: #9AA7BD; }
-      .card { fill: #0B1020; fill-opacity: 0.72; stroke-opacity: 0.12; }
-      .dot { fill-opacity: 0.16; }
-    }
-    @media (prefers-color-scheme: light) {
-      .sub { fill: #4A5568; }
-      .card { fill: #FFFFFF; fill-opacity: 0.78; stroke-opacity: 0.16; }
-      .dot { fill-opacity: 0.10; }
-    }
-  </style>
-
   <g clip-path="url(#frame)">
-    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="360" fill="url(#grid)">
+      <animate attributeName="x" values="0;34;0" dur="14s" repeatCount="indefinite"/>
+    </rect>
 
-    <g class="glow" filter="url(#soft)">
-      <circle class="orb orbA" cx="180" cy="70" r="200" fill="url(#orbA)">
-        <animate attributeName="cx" values="180;320;120;180" dur="17s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="70;180;240;70" dur="17s" repeatCount="indefinite"/>
-      </circle>
-      <circle class="orb orbB" cx="1000" cy="250" r="210" fill="url(#orbB)">
-        <animate attributeName="cx" values="1000;860;1080;1000" dur="21s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="250;120;200;250" dur="21s" repeatCount="indefinite"/>
-      </circle>
-      <circle class="orb orbC" cx="620" cy="300" r="180" fill="url(#orbC)">
-        <animate attributeName="cx" values="620;760;520;620" dur="13s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="300;230;60;300" dur="13s" repeatCount="indefinite"/>
-      </circle>
+    <!-- aurora field -->
+    <g class="mono" style="mix-blend-mode:screen">
+      <g filter="url(#soft)">
+        <circle cx="180" cy="80" r="210" fill="url(#orbA)">
+          <animate attributeName="cx" values="180;330;110;180" dur="17s" repeatCount="indefinite"/>
+          <animate attributeName="cy" values="80;190;250;80" dur="17s" repeatCount="indefinite"/>
+          <animate attributeName="r" values="210;250;200;210" dur="17s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="1010" cy="270" r="220" fill="url(#orbB)">
+          <animate attributeName="cx" values="1010;870;1090;1010" dur="21s" repeatCount="indefinite"/>
+          <animate attributeName="cy" values="270;120;210;270" dur="21s" repeatCount="indefinite"/>
+          <animate attributeName="r" values="220;195;245;220" dur="21s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="620" cy="330" r="190" fill="url(#orbC)">
+          <animate attributeName="cx" values="620;770;510;620" dur="13s" repeatCount="indefinite"/>
+          <animate attributeName="cy" values="330;240;50;330" dur="13s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="420" cy="40" r="170" fill="url(#orbD)">
+          <animate attributeName="cx" values="420;300;540;420" dur="25s" repeatCount="indefinite"/>
+          <animate attributeName="cy" values="40;140;-20;40" dur="25s" repeatCount="indefinite"/>
+        </circle>
+      </g>
     </g>
 
-    <rect class="card" x="1" y="1" width="1198" height="318" rx="26" fill="#0B1020" fill-opacity="0.72" stroke="#8B9BB4" stroke-opacity="0.12"/>
+    <!-- floating particles -->
+    <g class="dot">
+      <circle cx="300" cy="300" r="2.6" fill="#22D3EE"><animate attributeName="cy" values="300;180;300" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="60" r="2" fill="#8B7CFF"><animate attributeName="cx" values="520;700;520" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="320" r="2.8" fill="#FF4D8D"><animate attributeName="cy" values="320;140;320" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="11s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="70" r="2.2" fill="#22D3EE"><animate attributeName="cy" values="70;260;70" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite"/></circle>
+      <circle cx="150" cy="200" r="2.4" fill="#FFCB6B"><animate attributeName="cx" values="150;330;150" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="12s" repeatCount="indefinite"/></circle>
+      <circle cx="1060" cy="180" r="2.5" fill="#28C840"><animate attributeName="cy" values="180;330;180" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="20" r="2" fill="#8B7CFF"><animate attributeName="cx" values="640;820;640" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="14s" repeatCount="indefinite"/></circle>
+      <circle cx="380" cy="150" r="2.3" fill="#22D3EE"><animate attributeName="cy" values="150;320;150" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></circle>
+    </g>
 
-    <circle class="dot" cx="118" cy="112" r="5" fill="#22D3EE">
-      <animate attributeName="opacity" values="1;0.15;1" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="dot" cx="142" cy="112" r="5" fill="#FF4D8D">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="dot" cx="166" cy="112" r="5" fill="#FFD166">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
-    </circle>
-
-    <text x="118" y="196" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace"
-          font-size="72" font-weight="800" letter-spacing="-1.5" fill="url(#brand)">AADRIT</text>
-
-    <text class="sub" x="120" y="234" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace"
-          font-size="19" letter-spacing="4.5">FULL-STACK ENGINEER · CREATIVE TECH</text>
-
-    <rect x="120" y="252" width="150" height="3" rx="1.5" fill="url(#sub)">
-      <animate attributeName="width" values="150;520;150" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.35;0.9" dur="6s" repeatCount="indefinite"/>
+    <!-- card -->
+    <rect class="card" x="1" y="1" width="1198" height="358" rx="28" fill="#080D1A" fill-opacity="0.74" stroke="#8B9BB4" stroke-opacity="0.14"/>
+    <rect class="card" x="1" y="1" width="1198" height="358" rx="28" fill="none" stroke="#8B9BB4" stroke-opacity="0.14" stroke-dasharray="26 22">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 180" to="360 600 180" dur="60s" repeatCount="indefinite"/>
     </rect>
+
+    <!-- status dots -->
+    <circle class="dot" cx="118" cy="112" r="5" fill="#22D3EE"><animate attributeName="opacity" values="1;0.12;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle class="dot" cx="142" cy="112" r="5" fill="#FF4D8D"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle class="dot" cx="166" cy="112" r="5" fill="#FFCB6B"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+
+    <!-- rotating tech ring behind name -->
+    <g opacity="0.5">
+      <g transform="translate(600,196)">
+        <circle r="112" fill="none" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="3 14">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="128" fill="none" stroke="#FF4D8D" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="18 30">
+          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="38s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="-112" r="3.4" fill="#22D3EE">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="128" r="3" fill="#FF4D8D">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- wordmark -->
+    <text class="mono" x="600" y="212" font-size="76" font-weight="800" letter-spacing="-1.5"
+          fill="url(#brand)" text-anchor="middle" filter="url(#textglow)">AADRIT</text>
+
+    <!-- shine sweep across wordmark -->
+    <rect x="-260" y="150" width="120" height="72" fill="url(#beam)" opacity="0.35" transform="skewX(-18)">
+      <animate attributeName="x" values="-260;1300" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <text class="mono sub" x="600" y="252" font-size="18" letter-spacing="5.5" text-anchor="middle">FULL-STACK ENGINEER / CREATIVE TECH</text>
+
+    <!-- underline sweep -->
+    <rect x="390" y="276" width="420" height="3" rx="1.5" fill="url(#sub)"/>
+
+    <!-- scanning beam -->
+    <rect x="-200" y="0" width="180" height="360" fill="url(#beam)" opacity="0.12">
+      <animate attributeName="x" values="-200;1220" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- stat chips -->
+    <g>
+      <g>
+        <rect class="chip" x="70" y="300" width="132" height="30" rx="15" fill="#101827" fill-opacity="0.8" stroke="#8B9BB4" stroke-opacity="0.18"/>
+        <circle class="dot" cx="90" cy="315" r="3.4" fill="#28C840"><animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/></circle>
+        <text class="mono chipT" x="103" y="320" font-size="12.5" fill="#B7C3D6">building</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.5s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect class="chip" x="214" y="300" width="140" height="30" rx="15" fill="#101827" fill-opacity="0.8" stroke="#8B9BB4" stroke-opacity="0.18"/>
+        <circle class="dot" cx="234" cy="315" r="3.4" fill="#22D3EE"><animate attributeName="opacity" values="0.25;1;0.25" dur="3s" repeatCount="indefinite"/></circle>
+        <text class="mono chipT" x="247" y="320" font-size="12.5" fill="#B7C3D6">shipping daily</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="5.5s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect class="chip" x="366" y="300" width="124" height="30" rx="15" fill="#101827" fill-opacity="0.8" stroke="#8B9BB4" stroke-opacity="0.18"/>
+        <circle class="dot" cx="386" cy="315" r="3.4" fill="#FF4D8D"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+        <text class="mono chipT" x="399" y="320" font-size="12.5" fill="#B7C3D6">learning Rust</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="6s" repeatCount="indefinite"/>
+      </g>
+
+      <g>
+        <rect class="chip" x="726" y="300" width="118" height="30" rx="15" fill="#101827" fill-opacity="0.8" stroke="#8B9BB4" stroke-opacity="0.18"/>
+        <circle class="dot" cx="746" cy="315" r="3.4" fill="#FFCB6B"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/></circle>
+        <text class="mono chipT" x="759" y="320" font-size="12.5" fill="#B7C3D6">WebGPU</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="5s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect class="chip" x="856" y="300" width="128" height="30" rx="15" fill="#101827" fill-opacity="0.8" stroke="#8B9BB4" stroke-opacity="0.18"/>
+        <circle class="dot" cx="876" cy="315" r="3.4" fill="#8B7CFF"><animate attributeName="opacity" values="1;0.2;1" dur="3.8s" repeatCount="indefinite"/></circle>
+        <text class="mono chipT" x="889" y="320" font-size="12.5" fill="#B7C3D6">E2E crypto</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.2s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect class="chip" x="996" y="300" width="134" height="30" rx="15" fill="#101827" fill-opacity="0.8" stroke="#8B9BB4" stroke-opacity="0.18"/>
+        <circle class="dot" cx="1016" cy="315" r="3.4" fill="#28C840"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+        <text class="mono chipT" x="1029" y="320" font-size="12.5" fill="#B7C3D6">realtime</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="6.5s" repeatCount="indefinite"/>
+      </g>
+    </g>
   </g>
 </svg>
