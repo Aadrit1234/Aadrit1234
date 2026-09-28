@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Aadrit — full-stack engineer">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B7CFF"/>
+      <stop offset="45%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#FF4D8D"/>
+    </linearGradient>
+
+    <linearGradient id="sub" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7CFF"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <radialGradient id="orbA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B7CFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF4D8D" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#FF4D8D" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8B9BB4" stroke-opacity="0.13" stroke-width="1"/>
+    </pattern>
+
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1200" height="320" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .glow { mix-blend-mode: screen; }
+    @media (prefers-color-scheme: dark) {
+      .sub { fill: #9AA7BD; }
+      .card { fill: #0B1020; fill-opacity: 0.72; stroke-opacity: 0.12; }
+      .dot { fill-opacity: 0.16; }
+    }
+    @media (prefers-color-scheme: light) {
+      .sub { fill: #4A5568; }
+      .card { fill: #FFFFFF; fill-opacity: 0.78; stroke-opacity: 0.16; }
+      .dot { fill-opacity: 0.10; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <g class="glow" filter="url(#soft)">
+      <circle class="orb orbA" cx="180" cy="70" r="200" fill="url(#orbA)">
+        <animate attributeName="cx" values="180;320;120;180" dur="17s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="70;180;240;70" dur="17s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="orb orbB" cx="1000" cy="250" r="210" fill="url(#orbB)">
+        <animate attributeName="cx" values="1000;860;1080;1000" dur="21s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="250;120;200;250" dur="21s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="orb orbC" cx="620" cy="300" r="180" fill="url(#orbC)">
+        <animate attributeName="cx" values="620;760;520;620" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="300;230;60;300" dur="13s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect class="card" x="1" y="1" width="1198" height="318" rx="26" fill="#0B1020" fill-opacity="0.72" stroke="#8B9BB4" stroke-opacity="0.12"/>
+
+    <circle class="dot" cx="118" cy="112" r="5" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0.15;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="dot" cx="142" cy="112" r="5" fill="#FF4D8D">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="dot" cx="166" cy="112" r="5" fill="#FFD166">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="118" y="196" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace"
+          font-size="72" font-weight="800" letter-spacing="-1.5" fill="url(#brand)">AADRIT</text>
+
+    <text class="sub" x="120" y="234" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace"
+          font-size="19" letter-spacing="4.5">FULL-STACK ENGINEER · CREATIVE TECH</text>
+
+    <rect x="120" y="252" width="150" height="3" rx="1.5" fill="url(#sub)">
+      <animate attributeName="width" values="150;520;150" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.35;0.9" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

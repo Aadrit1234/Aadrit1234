@@ -1,241 +1,241 @@
-<!-- ========================= HEADER ========================= -->
+<div align="center">
 
-<p align="center">
-  <img src="./logo.jpeg" width="180" alt="Aadrit Logo"/>
-</p>
+<img src="./assets/hero.svg" alt="Aadrit — Full-Stack Engineer" width="100%"/>
 
-<p align="center">
-  <a href="https://github.com/Aadrit1234">
-    <img src="https://img.shields.io/badge/GitHub-Aadrit1234-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="mailto:aadritchandravanci123@gmail.com">
-    <img src="https://img.shields.io/badge/Email-aadritchandravanci123%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Aadrit1234&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile Views"/>
-</p>
+<br/>
 
-<h1 align="center">Hi 👋, I'm Aadrit</h1>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=1000&color=8B7CFF&center=true&vCenter=true&width=760&lines=Building+products+that+actually+ship.+%F0%9F%9A%80;I+turn+ideas+into+real%2C+working+software.&" alt="Typing animation"/>
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=900&color=FF4D73&center=true&vCenter=true&width=700&lines=Software+Developer;Web+%7C+Mobile+%7C+Desktop;Building+cool+things+with+code;Always+learning+%E2%80%A2+Always+building"
-    alt="Typing animation"
-  />
-</p>
+<br/>
 
-<p align="center">
-  🚀 Passionate developer who loves building cool things for the web, mobile & desktop.
-</p>
+<a href="https://github.com/Aadrit1234"><img src="https://img.shields.io/badge/GitHub-Aadrit1234-8B7CFF?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="mailto:aadritchandravanci23@gmail.com"><img src="https://img.shields.io/badge/Email-aadritchandravanci23-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<img src="https://komarev.com/ghpvc/?username=Aadrit1234&style=for-the-badge&color=22D3EE&label=Profile+Views" alt="Profile views"/>
 
-🧠 About Me
+</div>
 
-╭──────────────────────────────────────────────────────────────╮
-│  👨‍💻 Software Developer                                     │
-│  🌐 Web • Mobile • Desktop                                   │
-│  ⚙️  Full-stack development & creative tech                 │
-│  🧠 Exploring new languages, frameworks & tools              │
-│  🚀 Turning ideas into real projects                         │
-╰──────────────────────────────────────────────────────────────╯
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
-💻 All Programming Languages
+## 🖥️ Stack Preview
+
+<div align="center">
+  <img src="./assets/terminal.svg" alt="Animated stack preview: TypeScript, React, Vite, Node, Fastify, Postgres, Three.js, Python, Electron" width="100%"/>
+</div>
+
+<h3 align="left">I build across the whole stack —</h3>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Assembly-525252?style=flat-square&logo=assemblyscript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Objective--C-438EFF?style=flat-square&logo=apple&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Swift-F54A2A?style=flat-square&logo=swift&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Lua-000080?style=flat-square&logo=lua&logoColor=white"/>
-  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Julia-9558B2?style=flat-square&logo=julia&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Perl-39457E?style=flat-square&logo=perl&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Erlang-A90533?style=flat-square&logo=erlang&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Clojure-5881D8?style=flat-square&logo=clojure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Groovy-4298B8?style=flat-square&logo=apachegroovy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OCaml-EC6813?style=flat-square&logo=ocaml&logoColor=white"/>
-  <img src="https://img.shields.io/badge/F%23-378BBA?style=flat-square&logo=fsharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Visual%20Basic-512BD4?style=flat-square&logo=.net&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Nim-FFE953?style=flat-square&logo=nim&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Crystal-000000?style=flat-square&logo=crystal&logoColor=white"/>
-  <img src="https://img.shields.io/badge/D-BA595E?style=flat-square&logo=d&logoColor=white"/>
-  <img src="https://img.shields.io/badge/V-5D87BF?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Racket-9F1D20?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scheme-1F5EA8?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Lisp-3B3B3B?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prolog-E61B23?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ada-02F88C?style=flat-square&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Fortran-734F96?style=flat-square&logo=fortran&logoColor=white"/>
-  <img src="https://img.shields.io/badge/COBOL-005CA5?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pascal-2980B9?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Shell%20Script-121011?style=flat-square&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Zsh-89E051?style=flat-square&logo=zsh&logoColor=black"/>
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Batch-4D4D4D?style=flat-square&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Less-1D365D?style=flat-square&logo=less&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Stylus-333333?style=flat-square&logo=stylus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white"/>
-  <img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XML-005C97?style=flat-square&logo=xml&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Elm-1293D8?style=flat-square&logo=elm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Verilog-FF7043?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VHDL-543978?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CoffeeScript-2F2625?style=flat-square&logo=coffeescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Raku-000000?style=flat-square&logoColor=white"/>
 </p>
-
-🛠️ Tools & Technologies
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white"/>
-  <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=flat-square&logo=yarn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D"/>
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
   <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=9FEAF9"/>
-  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Lucide-F56565?style=flat-square&logo=lucide&logoColor=white"/>
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=9FEAF9"/>
+  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Windows%20Terminal-4D4D4D?style=flat-square&logo=windowsterminal&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=flat-square&logo=unrealengine&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Krita-3BABFF?style=flat-square&logo=krita&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AMD-ED1C24?style=flat-square&logo=amd&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
 </p>
 
-📊 GitHub Stats
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aadrit1234&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&theme=radical" alt="Aadrit's GitHub Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aadrit1234&layout=compact&langs_count=12&hide_border=false&theme=radical" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Aadrit1234&theme=radical&hide_border=false" alt="GitHub Streak"/>
-</p>
-
-📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aadrit1234&bg_color=0d1117&color=ffffff&line=ff4d73&point=ffd166&area=true&hide_border=false" alt="Contribution Graph" />
-</p>
-
-🧩 What I Like Building
+## 🧠 About
 
 <table>
-  <tr>
-    <td align="center" width="25%">
-      <b>🌐 Web</b><br/>
-      Modern websites, dashboards & full-stack apps
-    </td>
-    <td align="center" width="25%">
-      <b>📱 Mobile</b><br/>
-      Cross-platform apps & mobile experiences
-    </td>
-    <td align="center" width="25%">
-      <b>🖥️ Desktop</b><br/>
-      Utilities, tools & desktop applications
-    </td>
-    <td align="center" width="25%">
-      <b>🎮 Creative Tech</b><br/>
-      Games, graphics, experiments & interactive ideas
-    </td>
-  </tr>
+<tr>
+<td valign="top" width="55%">
+
+**Hey, I'm Aadrit.** I turn ideas into real, working software — from zero-dependency study apps to encrypted realtime collaboration rooms and self-hosted print infrastructure.
+
+- 🌐 **Full-stack** — web, desktop, and everything between
+- 🧠 **Curious by default** — I pick up new languages, frameworks and tools fast
+- 🔒 **Privacy-first** — offline-first storage, E2E encryption, no tracking
+- ⚡ **Ship it** — small tools I actually use beat big projects I never finish
+- 🎨 **Creative tech** — 3D, motion design, WebGL, and weird experiments
+
+</td>
+<td valign="top" width="45%">
+
+<pre>
+     ╭──────────────────────────╮
+     │  &gt; whoami               │
+     │                          │
+     │  name     Aadrit        │
+     │  role     Full-Stack    │
+     │  mode     Always        │
+     │           shipping      │
+     │  status   ● building    │
+     ╰──────────────────────────╯
+</pre>
+
+</td>
+</tr>
 </table>
 
-🚀 Current Focus
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
-[■■■■■■■■■■■■■■■■■■■■] Building
-[■■■■■■■■■■■■■■■■■□□□] Learning
-[■■■■■■■■■■■■■■□□□□□□] Experimenting
-[■■■■■■■■■■■■■■■■□□□□] Shipping
+## 🚀 Featured Projects
 
-📫 Connect With Me
+<div align="center">
+  <img src="./assets/projects.svg" alt="Conduit, PrintBridge, FormulaVault" width="100%"/>
+</div>
 
-<p align="center">
-  <a href="https://github.com/Aadrit1234">
-    <img src="https://img.shields.io/badge/GitHub-Aadrit1234-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="mailto:aadritchandravanci123@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+<table>
+<tr>
+<td valign="top" width="50%">
 
-<p align="center">
-  <sub>⚡ Code. Create. Learn. Repeat.</sub>
-</p>
+### 🔗 [conduit](https://github.com/Aadrit1234/conduit)
+**End-to-end encrypted realtime rooms**
+
+Chat, folders and file transfer inside ephemeral or permanent rooms. Server-backed realtime with client-side E2E encryption and WebRTC peer-to-peer transfer.
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Vite_8-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+
+</td>
+<td valign="top" width="50%">
+
+### 🖨️ [printbridge](https://github.com/Aadrit1234/printbridge)
+**Self-hosted print infrastructure**
+
+Two public sites, one printer, three desktop apps. Send a document from any device, get a token, collect it at the machine — unattended.
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=9FEAF9"/>
+<img src="https://img.shields.io/badge/Licence%20Keys-8B7CFF?style=flat-square"/>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🧮 [FormulaVault](https://github.com/Aadrit1234/FormulaVault)
+**Offline-first study app**
+
+833 formula cards across 62 chapters for CBSE 11/12 and JEE. Typo-tolerant search, AI tutor, flashcards, revision sheets, smart calculators. Zero frameworks, zero build step.
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/MathJax-003B57?style=flat-square"/>
+
+</td>
+<td valign="top">
+
+### 🧪 [prompt-forge](https://github.com/Aadrit1234/prompt-forge) · [filemorph](https://github.com/Aadrit1234/filemorph)
+**Prompt engineering & file conversion**
+
+`prompt-forge` — plain language in, a genuinely structured prompt out. Five AI backends, depth control, a techniques report. `filemorph` — free document, image and audio conversion with full fidelity.
+
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sharp-5F4F2A?style=flat-square"/>
+<img src="https://img.shields.io/badge/LibreOffice-4896CF?style=flat-square"/>
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+## 📊 Stats
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Aadrit1234&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&rank=-A" alt="Aadrit's GitHub stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aadrit1234&layout=compact&langs_count=10&theme=react&hide_border=true" alt="Top languages"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Aadrit1234&theme=react&hide_border=true" alt="GitHub streak"/>
+</div>
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aadrit1234&bg_color=00000000&color=8B7CFF&line=22D3EE&point=FF4D8D&area=true&hide_border=true&custom_title=Aadrit%27s%20Activity" alt="Contribution activity graph"/>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aadrit1234/Aadrit1234/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aadrit1234/Aadrit1234/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Aadrit1234/Aadrit1234/output/github-contribution-grid-snake.svg"/>
+</picture>
+
+</div>
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+## 🧩 What I Like Building
+
+<table>
+<tr>
+<td align="center" width="25%"><b>🌐 Web</b><br/><sub>Modern sites, dashboards & full-stack apps</sub></td>
+<td align="center" width="25%"><b>📱 Mobile</b><br/><sub>Cross-platform apps that just work</sub></td>
+<td align="center" width="25%"><b>🖥️ Desktop</b><br/><sub>Utilities, tools & Electron/Tauri apps</sub></td>
+<td align="center" width="25%"><b>🎨 Creative Tech</b><br/><sub>3D, motion, graphics & experiments</sub></td>
+</tr>
+<tr>
+<td align="center" width="25%"><b>🔐 Privacy</b><br/><sub>E2E encryption & offline-first data</sub></td>
+<td align="center" width="25%"><b>⚡ Realtime</b><br/><sub>Sockets, WebRTC & live collaboration</sub></td>
+<td align="center" width="25%"><b>🧰 Tooling</b><br/><sub>Self-hosted infra that runs at home</sub></td>
+<td align="center" width="25%"><b>🎓 Learning</b><br/><sub>Study tools & knowledge systems</sub></td>
+</tr>
+</table>
+
+## 🎯 Current Focus
+
+<table>
+<tr><td width="150"><b>Building</b></td><td>Realtime collaboration & encrypted rooms</td></tr>
+<tr><td width="150"><b>Learning</b></td><td>Systems design, Rust, and shaders</td></tr>
+<tr><td width="150"><b>Experimenting</b></td><td>WebGPU, local-first sync, tiny AI models</td></tr>
+<tr><td width="150"><b>Shipping</b></td><td>PrintBridge & FormulaVault releases</td></tr>
+</table>
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+## 📫 Let's Connect
+
+<div align="center">
+
+<a href="https://github.com/Aadrit1234"><img src="https://img.shields.io/badge/GitHub-Aadrit1234-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="mailto:aadritchandravanci23@gmail.com"><img src="https://img.shields.io/badge/Email-aadritchandravanci23%40gmail.com-8B7CFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
+
+**Open to interesting problems, open-source collaboration, and anything that ships.**
+
+<sub>⚡ Code. Create. Learn. Repeat.</sub>
+
+</div>

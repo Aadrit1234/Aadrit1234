@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="Projects: Conduit, PrintBridge, Formula Vault, Filemorph, Prompt Forge">
+  <defs>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B7CFF"/><stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#28C840"/>
+    </linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4D8D"/><stop offset="100%" stop-color="#FFCB6B"/>
+    </linearGradient>
+    <linearGradient id="c4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFCB6B"/><stop offset="100%" stop-color="#8B7CFF"/>
+    </linearGradient>
+    <linearGradient id="c5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#28C840"/><stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7CFF"/><stop offset="100%" stop-color="#FF4D8D"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <style>
+      .pn { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; font-weight: 700; }
+      .pd { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+      .card { transition: transform .4s cubic-bezier(.22,1,.36,1); }
+      .card:hover { transform: translateY(-6px); }
+      .ring { stroke-dasharray: 3 9; animation: spin 9s linear infinite; transform-origin: 50% 50%; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes breathe { 0%,100% { opacity:.5 } 50% { opacity:1 } }
+      .breathe { animation: breathe 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <g class="card">
+    <rect x="40" y="18" width="252" height="184" rx="16" fill="#0B1020" fill-opacity="0.72" stroke="#8B9BB4" stroke-opacity="0.16"/>
+    <rect x="40" y="18" width="252" height="3.5" rx="1.75" fill="url(#c1)"/>
+    <circle class="breathe" cx="62" cy="52" r="5" fill="#8B7CFF"/>
+    <text class="pn" x="76" y="58" font-size="19" fill="#E9EEF8">conduit</text>
+    <text class="pd" x="58" y="92" font-size="12.5" fill="#9AA7BD">E2E-encrypted realtime rooms —</text>
+    <text class="pd" x="58" y="111" font-size="12.5" fill="#9AA7BD">chat, WebRTC transfers, Postgres.</text>
+    <rect x="58" y="132" width="216" height="6" rx="3" fill="#8B7CFF" fill-opacity="0.25"/>
+    <rect x="58" y="132" width="176" height="6" rx="3" fill="url(#c1)"/>
+    <text class="pd" x="58" y="168" font-size="11" fill="#6E7B94">TS · React · Vite · Fastify</text>
+    <circle class="ring" cx="264" cy="176" r="14" fill="none" stroke="#8B7CFF" stroke-opacity="0.5" stroke-width="1.5"/>
+  </g>
+
+  <g class="card">
+    <rect x="324" y="18" width="252" height="184" rx="16" fill="#0B1020" fill-opacity="0.72" stroke="#8B9BB4" stroke-opacity="0.16"/>
+    <rect x="324" y="18" width="252" height="3.5" rx="1.75" fill="url(#c2)"/>
+    <circle class="breathe" cx="346" cy="52" r="5" fill="#22D3EE" style="animation-delay:.4s"/>
+    <text class="pn" x="360" y="58" font-size="19" fill="#E9EEF8">printbridge</text>
+    <text class="pd" x="342" y="92" font-size="12.5" fill="#9AA7BD">Self-hosted print infra — 2 sites,</text>
+    <text class="pd" x="342" y="111" font-size="12.5" fill="#9AA7BD">1 printer, 3 desktop apps.</text>
+    <rect x="342" y="132" width="216" height="6" rx="3" fill="#22D3EE" fill-opacity="0.25"/>
+    <rect x="342" y="132" width="148" height="6" rx="3" fill="url(#c2)"/>
+    <text class="pd" x="342" y="168" font-size="11" fill="#6E7B94">JS · Node · Electron · Licences</text>
+    <circle class="ring" cx="548" cy="176" r="14" fill="none" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1.5" style="animation-duration:7s"/>
+  </g>
+
+  <g class="card">
+    <rect x="608" y="18" width="252" height="184" rx="16" fill="#0B1020" fill-opacity="0.72" stroke="#8B9BB4" stroke-opacity="0.16"/>
+    <rect x="608" y="18" width="252" height="3.5" rx="1.75" fill="url(#c3)"/>
+    <circle class="breathe" cx="630" cy="52" r="5" fill="#FF4D8D" style="animation-delay:.8s"/>
+    <text class="pn" x="644" y="58" font-size="19" fill="#E9EEF8">FormulaVault</text>
+    <text class="pd" x="626" y="92" font-size="12.5" fill="#9AA7BD">Offline-first study app — 833 cards,</text>
+    <text class="pd" x="626" y="111" font-size="12.5" fill="#9AA7BD">62 chapters, AI tutor, flashcards.</text>
+    <rect x="626" y="132" width="216" height="6" rx="3" fill="#FF4D8D" fill-opacity="0.25"/>
+    <rect x="626" y="132" width="192" height="6" rx="3" fill="url(#c3)"/>
+    <text class="pd" x="626" y="168" font-size="11" fill="#6E7B94">HTML · CSS · JS · MathJax</text>
+    <circle class="ring" cx="832" cy="176" r="14" fill="none" stroke="#FF4D8D" stroke-opacity="0.5" stroke-width="1.5" style="animation-duration:11s"/>
+  </g>
+</svg>
