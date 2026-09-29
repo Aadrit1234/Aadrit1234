@@ -1,163 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="404" viewBox="0 0 900 404" fill="none" role="img" aria-label="Animated terminal — Aadrit stack and skills">
-<title>Animated terminal — Aadrit stack and skills</title>
-<defs>
-<linearGradient id="tbar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121732"/><stop offset="1" stop-color="#0b0e20"/></linearGradient>
-<linearGradient id="tprompt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
-<filter id="tglow2" x="-60%" y="-60%" width="220%" height="220%">
-<feGaussianBlur stdDeviation="3" result="b"/>
-<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<filter id="tsoft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>
-<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.06"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="200" viewBox="0 0 850 200" font-family="Consolas, 'Fira Code', monospace">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f1e"/>
+      <stop offset="1" stop-color="#05070f"/>
+    </linearGradient>
+    <filter id="tGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="tclip"><rect x="1.5" y="1.5" width="847" height="197" rx="12"/></clipPath>
+  </defs>
 
-<rect width="900" height="404" rx="18" fill="#0b0e20"/>
-<rect width="900" height="40" rx="18" fill="url(#tbar)"/>
-<rect y="22" width="900" height="18" fill="url(#tbar)"/>
-<rect y="39" width="900" height="1" fill="#232b56"/>
-<circle cx="18" cy="20" r="5.5" fill="#ff5f57"/>
-<circle cx="36" cy="20" r="5.5" fill="#febc2e"/>
-<circle cx="54" cy="20" r="5.5" fill="#28c840"/>
-<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="12" fill="#4d558c" letter-spacing="1.5">
-<text x="450" y="24" text-anchor="middle">aadrit@dev — ~/profile</text>
-</g>
-<g>
-<rect x="406" y="12" width="88" height="16" rx="8" fill="#05060f" opacity="0.55"/>
-<text x="450" y="23.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5" letter-spacing="1.4" fill="#22d3ee" text-anchor="middle" opacity="0.9">LIVE TTY</text>
-<rect x="406" y="12" width="88" height="16" rx="8" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.5">
-<animate attributeName="stroke-opacity" values="0.6;0.12;0.6" dur="2.2s" repeatCount="indefinite"/>
-</rect>
-</g>
-<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14.5">
-<g>
-<clipPath id="ln0"><rect x="48" y="55.5" width="0" height="25">
-<animate attributeName="width" values="0;0;54.2;54.2" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="0s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln0)" opacity="0">
-<text x="26" y="74" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="74" fill="#22d3ee">whoami</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="0s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln1"><rect x="48" y="80.5" width="0" height="25">
-<animate attributeName="width" values="0;0;332.6;332.6" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="1.5s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln1)" opacity="0">
+  <rect x="1.5" y="1.5" width="847" height="197" rx="12" fill="url(#tbg)"/>
 
-<text x="66" y="99" fill="#9aa2d8">aadrit — full-stack / security / ai-ml</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="1.5s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln2"><rect x="48" y="105.5" width="0" height="25">
-<animate attributeName="width" values="0;0;89;89" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="3s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln2)" opacity="0">
-<text x="26" y="124" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="124" fill="#22d3ee">ls ./repos</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="3s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln3"><rect x="48" y="130.5" width="0" height="25">
-<animate attributeName="width" values="0;0;515.3;515.3" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="4.5s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln3)" opacity="0">
+  <g clip-path="url(#tclip)">
+    <!-- title bar -->
+    <rect x="1.5" y="1.5" width="847" height="34" rx="12" fill="#101830"/>
+    <rect x="1.5" y="22" width="847" height="14" fill="#101830"/>
+    <circle cx="26" cy="18" r="6" fill="#ff5f56"><animate attributeName="opacity" values="1;.35;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="46" cy="18" r="6" fill="#ffbd2e"><animate attributeName="opacity" values=".4;1;.4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="66" cy="18" r="6" fill="#27c93f"><animate attributeName="opacity" values="1;.35;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <text x="425" y="23" text-anchor="middle" font-size="12" fill="#8aa2c8">aadrit@mainframe: ~/portfolio — zsh</text>
 
-<text x="66" y="149" fill="#9aa2d8">conduit  printbridge  filemorph  FormulaVault  prompt-forge</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="4.5s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln4"><rect x="48" y="155.5" width="0" height="25">
-<animate attributeName="width" values="0;0;115.1;115.1" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="6s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln4)" opacity="0">
-<text x="26" y="174" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="174" fill="#22d3ee">cat stack.txt</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="6s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln5"><rect x="48" y="180.5" width="0" height="25">
-<animate attributeName="width" values="0;0;497.9;497.9" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="7.5s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln5)" opacity="0">
+    <!-- faint grid backdrop -->
+    <g stroke="#1c2b52" stroke-opacity=".18">
+      <line x1="0" y1="60" x2="850" y2="60"/><line x1="0" y1="90" x2="850" y2="90"/>
+      <line x1="0" y1="120" x2="850" y2="120"/><line x1="0" y1="150" x2="850" y2="150"/>
+      <line x1="0" y1="180" x2="850" y2="180"/>
+    </g>
 
-<text x="66" y="199" fill="#9aa2d8">TypeScript · Node · Fastify · Postgres · React · Three.js</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="7.5s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln6"><rect x="48" y="205.5" width="0" height="25">
-<animate attributeName="width" values="0;0;376.1;376.1" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="9s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln6)" opacity="0">
+    <!-- typed command line 1 -->
+    <g filter="url(#tGlow)">
+      <text x="26" y="76" font-size="15" fill="#00ff9d" font-weight="700">➜  ~</text>
+      <text x="80" y="76" font-size="15" fill="#e6f7ff">
+        <tspan>whoami</tspan>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.35;0.38" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <rect x="26" y="88" width="8" height="16" fill="#00ffe1">
+        <animate attributeName="opacity" values="1;0" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="80" y="101" font-size="14" fill="#9fe8ff">
+        <tspan>aadrit — full-stack dev · security enthusiast · AI/ML tinkerer</tspan>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.18;0.5;0.55" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <!-- line 2 -->
+      <text x="26" y="130" font-size="15" fill="#00ff9d" font-weight="700">
+        <tspan>➜  ~</tspan>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.38;0.44;0.86;0.9" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="80" y="130" font-size="15" fill="#e6f7ff">
+        <tspan>cat mission.txt</tspan>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.86;0.9" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="80" y="155" font-size="14" fill="#ffd166">
+        <tspan>Building secure, resilient &amp; intelligent systems — and breaking</tspan>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.66;0.86;0.9" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="80" y="175" font-size="14" fill="#ffd166">
+        <tspan>them first to understand them deeply.</tspan>
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.72;0.78;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
 
-<text x="66" y="224" fill="#9aa2d8">Burp · Nmap · Ghidra · PyTorch · LLM agents</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="9s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln7"><rect x="48" y="230.5" width="0" height="25">
-<animate attributeName="width" values="0;0;123.8;123.8" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="10.5s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln7)" opacity="0">
-<text x="26" y="249" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="249" fill="#22d3ee">nmap --scan-me</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="10.5s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln8"><rect x="48" y="255.5" width="0" height="25">
-<animate attributeName="width" values="0;0;228.2;228.2" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="12s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln8)" opacity="0">
-
-<text x="66" y="274" fill="#9aa2d8">open ports: 22 80 443 8080</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="12s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln9"><rect x="48" y="280.5" width="0" height="25">
-<animate attributeName="width" values="0;0;289.1;289.1" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="13.5s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln9)" opacity="0">
-
-<text x="66" y="299" fill="#9aa2d8">vulnerabilities: too many to list</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="13.5s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln10"><rect x="48" y="305.5" width="0" height="25">
-<animate attributeName="width" values="0;0;176;176" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="15s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln10)" opacity="0">
-<text x="26" y="324" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="324" fill="#22d3ee">git push origin main</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="15s" repeatCount="indefinite"/>
-</g>
-</g>
-<g>
-<clipPath id="ln11"><rect x="48" y="330.5" width="0" height="25">
-<animate attributeName="width" values="0;0;80.3;80.3" keyTimes="0;0.001;0.55;1" calcMode="linear" dur="1.5s" begin="16.5s" repeatCount="indefinite"/>
-</rect></clipPath>
-<g clip-path="url(#ln11)" opacity="0">
-
-<text x="66" y="349" fill="#34d399" font-weight="700">shipped ✓</text>
-<animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="16.5s" repeatCount="indefinite"/>
-</g>
-</g>
-</g>
-<g>
-<rect x="26" y="347.5" width="8" height="18.5" fill="#22d3ee" filter="url(#tglow2)" opacity="0.9">
-<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="1.05s" repeatCount="indefinite"/>
-</rect>
-</g>
-<rect x="0" y="40" width="900" height="364" fill="url(#scan)" opacity="0.5"/>
-<rect x="0" y="0" width="900" height="404" rx="18" fill="none" stroke="#232b56" stroke-width="1.2"/>
-<rect x="0" y="0" width="900" height="404" rx="18" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.18">
-<animate attributeName="stroke-opacity" values="0.28;0.05;0.28" dur="5s" repeatCount="indefinite"/>
-</rect>
+  <rect x="1.5" y="1.5" width="847" height="197" rx="12" fill="none" stroke="#2de1fc" stroke-opacity=".45" stroke-width="1.6">
+    <animate attributeName="stroke" values="#2de1fc;#8a2be2;#00ff9d;#2de1fc" dur="8s" repeatCount="indefinite"/>
+  </rect>
 </svg>

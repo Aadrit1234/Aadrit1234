@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="150" viewBox="0 0 680 150" font-family="Consolas, monospace">
+  <defs>
+    <linearGradient id="hudbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="1" stop-color="#0d0620"/>
+    </linearGradient>
+    <filter id="hudGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="hudclip"><rect x="1.5" y="1.5" width="677" height="147" rx="14"/></clipPath>
+    <radialGradient id="radarBg" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#00ff9d" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#00ff9d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="677" height="147" rx="14" fill="url(#hudbg)"/>
+
+  <g clip-path="url(#hudclip)">
+    <!-- radar -->
+    <circle cx="85" cy="75" r="55" fill="url(#radarBg)"/>
+    <circle cx="85" cy="75" r="55" fill="none" stroke="#00ff9d" stroke-opacity=".4"/>
+    <circle cx="85" cy="75" r="36" fill="none" stroke="#00ff9d" stroke-opacity=".28"/>
+    <circle cx="85" cy="75" r="18" fill="none" stroke="#00ff9d" stroke-opacity=".28"/>
+    <line x1="30" y1="75" x2="140" y2="75" stroke="#00ff9d" stroke-opacity=".2"/>
+    <line x1="85" y1="20" x2="85" y2="130" stroke="#00ff9d" stroke-opacity=".2"/>
+    <g filter="url(#hudGlow)">
+      <path d="M85 75 L85 20 A55 55 0 0 1 132.6 47.5 Z" fill="#00ff9d" opacity=".22">
+        <animateTransform attributeName="transform" type="rotate" from="0 85 75" to="360 85 75" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <line x1="85" y1="75" x2="85" y2="20" stroke="#7dffc8" stroke-width="1.6">
+        <animateTransform attributeName="transform" type="rotate" from="0 85 75" to="360 85 75" dur="4s" repeatCount="indefinite"/>
+      </line>
+    </g>
+    <circle cx="110" cy="52" r="2.5" fill="#ff2bd6">
+      <animate attributeName="opacity" values="1;.1;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="62" cy="98" r="2.5" fill="#ffd166">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="98" cy="104" r="2" fill="#00ffe1">
+      <animate attributeName="opacity" values="1;.15;1" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="85" y="145" text-anchor="middle" font-size="9" fill="#4f7f6b">THREAT.SCAN</text>
+
+    <!-- skill bars -->
+    <text x="175" y="34" font-size="13" fill="#9fe8ff" letter-spacing="2">SKILL MATRIX</text>
+    <g font-size="10.5" fill="#7ee7d8">
+      <text x="175" y="58">FULL-STACK</text>
+      <rect x="175" y="63" width="330" height="5" rx="2.5" fill="#1a2340"/>
+      <rect x="175" y="63" width="0" height="5" rx="2.5" fill="#00ffe1">
+        <animate attributeName="width" values="0;0;285;285;0" keyTimes="0;0.05;0.35;0.85;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="175" y="86">SECURITY / PENTEST</text>
+      <rect x="175" y="91" width="330" height="5" rx="2.5" fill="#1a2340"/>
+      <rect x="175" y="91" width="0" height="5" rx="2.5" fill="#ff2bd6">
+        <animate attributeName="width" values="0;0;250;250;0" keyTimes="0;0.1;0.4;0.88;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="175" y="114">AI / ML</text>
+      <rect x="175" y="119" width="330" height="5" rx="2.5" fill="#1a2340"/>
+      <rect x="175" y="119" width="0" height="5" rx="2.5" fill="#ffd166">
+        <animate attributeName="width" values="0;0;225;225;0" keyTimes="0;0.15;0.45;0.9;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- right column: uptime + coords -->
+    <g font-size="10" fill="#5b7c8d">
+      <text x="545" y="34">STATUS</text>
+      <circle cx="552" cy="50" r="3.5" fill="#00ff9d">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="562" y="53" fill="#00ff9d">ONLINE</text>
+      <text x="545" y="76">LOC</text><text x="582" y="76" fill="#9fe8ff">INDIA</text>
+      <text x="545" y="94">ROLE</text><text x="582" y="94" fill="#9fe8ff">BUILDER</text>
+      <text x="545" y="112">MODE</text><text x="582" y="112" fill="#ff2bd6">HIRABLE</text>
+    </g>
+    <g fill="none" stroke="#2de1fc" stroke-opacity=".3">
+      <path d="M520 24 l0 0"/><rect x="520" y="24" width="140" height="100" rx="8"/>
+    </g>
+  </g>
+
+  <rect x="1.5" y="1.5" width="677" height="147" rx="14" fill="none" stroke="#00ffe1" stroke-opacity=".45" stroke-width="1.5">
+    <animate attributeName="stroke" values="#00ffe1;#8a2be2;#ff2bd6;#00ffe1" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

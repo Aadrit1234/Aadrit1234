@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="90" viewBox="0 0 850 90">
+  <defs>
+    <linearGradient id="fw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ffe1"/>
+      <stop offset=".5" stop-color="#c314ff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="fwGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g fill="none" stroke="url(#fw)" stroke-width="2.5" filter="url(#fwGlow)" stroke-linecap="round">
+    <path d="M0 45 Q 53 10, 106 45 T 212 45 T 318 45 T 424 45 T 530 45 T 636 45 T 742 45 T 848 45">
+      <animate attributeName="d" dur="4s" repeatCount="indefinite"
+        values="M0 45 Q 53 10, 106 45 T 212 45 T 318 45 T 424 45 T 530 45 T 636 45 T 742 45 T 848 45;
+                M0 45 Q 53 80, 106 45 T 212 45 T 318 45 T 424 45 T 530 45 T 636 45 T 742 45 T 848 45;
+                M0 45 Q 53 10, 106 45 T 212 45 T 318 45 T 424 45 T 530 45 T 636 45 T 742 45 T 848 45"/>
+    </path>
+  </g>
+  <g fill="none" stroke="url(#fw)" stroke-width="1.4" opacity=".45">
+    <path d="M0 55 Q 53 25, 106 55 T 212 55 T 318 55 T 424 55 T 530 55 T 636 55 T 742 55 T 848 55">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite"
+        values="M0 55 Q 53 25, 106 55 T 212 55 T 318 55 T 424 55 T 530 55 T 636 55 T 742 55 T 848 55;
+                M0 55 Q 53 85, 106 55 T 212 55 T 318 55 T 424 55 T 530 55 T 636 55 T 742 55 T 848 55;
+                M0 55 Q 53 25, 106 55 T 212 55 T 318 55 T 424 55 T 530 55 T 636 55 T 742 55 T 848 55"/>
+    </path>
+  </g>
+  <g fill="none" stroke="url(#fw)" stroke-width="1.2" opacity=".25">
+    <path d="M0 35 Q 53 5, 106 35 T 212 35 T 318 35 T 424 35 T 530 35 T 636 35 T 742 35 T 848 35">
+      <animate attributeName="d" dur="5.2s" repeatCount="indefinite"
+        values="M0 35 Q 53 65, 106 35 T 212 35 T 318 35 T 424 35 T 530 35 T 636 35 T 742 35 T 848 35;
+                M0 35 Q 53 5, 106 35 T 212 35 T 318 35 T 424 35 T 530 35 T 636 35 T 742 35 T 848 35"/>
+    </path>
+  </g>
+</svg>

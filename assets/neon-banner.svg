@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="230" viewBox="0 0 850 230" font-family="'Segoe UI', Roboto, 'Helvetica Neue', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050510"/>
+      <stop offset=".5" stop-color="#0b0620"/>
+      <stop offset="1" stop-color="#04040a"/>
+    </linearGradient>
+    <linearGradient id="titleG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ffe1"/>
+      <stop offset=".5" stop-color="#00b3ff"/>
+      <stop offset="1" stop-color="#c314ff"/>
+      <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ffe1" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00ffe1" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#00ffe1" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowBig" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="1.5" y="1.5" width="847" height="227" rx="18"/></clipPath>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="847" height="227" rx="18" fill="url(#bg)"/>
+  <g clip-path="url(#clip)">
+    <!-- perspective grid floor -->
+    <g stroke="#8a2be2" stroke-opacity=".22">
+      <line x1="-40" y1="172" x2="890" y2="172" stroke-width="1"/>
+      <line x1="-40" y1="184" x2="890" y2="184" stroke-width="1"/>
+      <line x1="-40" y1="198" x2="890" y2="198" stroke-width="1"/>
+      <line x1="-40" y1="214" x2="890" y2="214" stroke-width="1"/>
+      <line x1="-40" y1="232" x2="890" y2="232" stroke-width="1"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 13; 0 0" dur="0.9s" repeatCount="indefinite"/>
+    </g>
+    <g stroke="#00c8ff" stroke-opacity=".12">
+      <line x1="40" y1="232" x2="170" y2="170" stroke-width="1"/>
+      <line x1="160" y1="232" x2="240" y2="170" stroke-width="1"/>
+      <line x1="280" y1="232" x2="316" y2="170" stroke-width="1"/>
+      <line x1="400" y1="232" x2="400" y2="170" stroke-width="1"/>
+      <line x1="520" y1="232" x2="484" y2="170" stroke-width="1"/>
+      <line x1="640" y1="232" x2="560" y2="170" stroke-width="1"/>
+      <line x1="760" y1="232" x2="640" y2="170" stroke-width="1"/>
+      <line x1="880" y1="232" x2="720" y2="170" stroke-width="1"/>
+    </g>
+    <!-- matrix rain columns -->
+    <g fill="#00ff9d" opacity=".30" font-size="11" font-family="monospace" font-weight="600">
+      <text x="60" y="20">0</text><text x="60" y="36">1</text><text x="60" y="52">λ</text><text x="60" y="68">1</text>
+      <animate attributeName="opacity" values=".28;.05;.28" dur="3.4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -40; 0 235" dur="4.6s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#00ffe1" opacity=".22" font-size="11" font-family="monospace" font-weight="600">
+      <text x="770" y="20">{</text><text x="770" y="36">/</text><text x="770" y="52">0</text><text x="770" y="68">}</text>
+      <animate attributeName="opacity" values=".22;.04;.22" dur="2.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -70; 0 235" dur="5.8s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#c314ff" opacity=".2" font-size="11" font-family="monospace" font-weight="600">
+      <text x="130" y="12">&gt;</text><text x="130" y="28">_</text><text x="130" y="44">#</text><text x="130" y="60">1</text><text x="130" y="76">0</text>
+      <animate attributeName="opacity" values=".2;.03;.2" dur="3.9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -90; 0 235" dur="6.6s" repeatCount="indefinite"/>
+    </g>
+    <!-- floating hexes -->
+    <g fill="none" stroke="#ff2bd6" stroke-width="1" opacity=".35">
+      <path d="M600 40 l14 -8 14 8 0 16 -14 8 -14 -8 z"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 14; 0 0" dur="5s" repeatCount="indefinite"/>
+    </g>
+    <g fill="none" stroke="#00b3ff" stroke-width="1" opacity=".3">
+      <path d="M740 118 l12 -7 12 7 0 14 -12 7 -12 -7 z"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <!-- scanning beam -->
+    <rect x="0" y="-70" width="850" height="70" fill="url(#scan)">
+      <animate attributeName="y" values="-70;230;-70" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <!-- glitch headline -->
+    <g filter="url(#glowBig)">
+      <text x="425" y="103" text-anchor="middle" font-size="44" font-weight="800" fill="url(#titleG)" letter-spacing="4" font-family="'Segoe UI', Roboto, sans-serif">AADRIT</text>
+      <animate attributeName="opacity" values="1;1;0.55;1;1;0.7;1" keyTimes="0;0.36;0.38;0.4;0.78;0.8;1" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <g font-size="44" font-weight="800" letter-spacing="4" font-family="'Segoe UI', Roboto, sans-serif">
+      <text class="glitch-r" x="425" y="103" text-anchor="middle" fill="#ff2bd6" opacity="0">AADRIT
+        <animate attributeName="opacity" values="0;0;0.55;0;0;0.4;0;0" keyTimes="0;0.36;0.38;0.4;0.78;0.8;0.82;1" dur="4s" repeatCount="indefinite"/>
+      </text>
+      <text x="425" y="103" text-anchor="middle" fill="#00ffe1" opacity="0">AADRIT
+        <animate attributeName="opacity" values="0;0;0.5;0;0" keyTimes="0;0.36;0.38;0.4;1" dur="4s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <text x="425" y="133" text-anchor="middle" font-size="13" letter-spacing="5" fill="#9fe8ff" opacity=".85" font-family="monospace">FULL-STACK DEVELOPER · CYBERSECURITY · AI/ML EXPLORER</text>
+    <g filter="url(#glow)">
+      <rect x="262" y="146" width="326" height="2" rx="1" fill="#00ffe1" opacity=".8">
+        <animate attributeName="width" values="0;326;0" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="425;262;425" dur="5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="425" y="164" text-anchor="middle" font-size="11" fill="#7ee7d8" opacity=".75" font-family="monospace">&lt;/&gt; building secure · resilient · intelligent systems</text>
+    <!-- top status LEDs -->
+    <circle cx="30" cy="30" r="4" fill="#00ff9d" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="48" cy="30" r="4" fill="#ffd166" filter="url(#glow)">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="66" cy="30" r="4" fill="#ff2bd6" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.2;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="54" font-size="9" fill="#5b7c8d" font-family="monospace">SYS.ONLINE</text>
+  </g>
+  <rect x="1.5" y="1.5" width="847" height="227" rx="18" fill="none" stroke="#00ffe1" stroke-opacity=".55" stroke-width="2.5">
+    <animate attributeName="stroke" values="#00ffe1;#c314ff;#ff2bd6;#00ffe1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1.5" y="1.5" width="847" height="227" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="1"/>
+</svg>
