@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="388" viewBox="0 0 900 388" fill="none" role="img" aria-label="Project timeline">
+<title>Project timeline</title>
+<defs>
+<linearGradient id="tlg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<filter id="tlglow" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="3" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<text x="34" y="24" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="12" letter-spacing="3.4" fill="url(#tlg)" text-anchor="middle" font-weight="700">BUILD LOG</text>
+<line x1="34" y1="68" x2="34" y2="324" stroke="url(#tlg)" stroke-width="1.5" opacity="0.45"/>
+<g>
+<circle cx="34" cy="68" r="9" fill="#0b0e20" stroke="#22d3ee" stroke-width="2">
+<animate attributeName="r" values="8;11;8" dur="3s" begin="0s" repeatCount="indefinite"/>
+</circle>
+<circle cx="34" cy="68" r="3.4" fill="#22d3ee"/>
+<g transform="translate(68 68)" opacity="1">
+<text x="0" y="-6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" fill="#22d3ee" text-anchor="start">filemorph</text>
+<text x="0" y="14" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#9aa2d8">Free online file converter &amp; audio transcriber…</text>
+</g>
+<rect x="54" y="53" width="0" height="1" fill="#22d3ee" opacity="0.6">
+<animate attributeName="width" values="0;0" dur="0.1s" fill="freeze"/>
+</rect>
+</g><g>
+<circle cx="34" cy="146" r="9" fill="#0b0e20" stroke="#a855f7" stroke-width="2">
+<animate attributeName="r" values="8;11;8" dur="3.4s" begin="0.3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="34" cy="146" r="3.4" fill="#a855f7"/>
+<g transform="translate(0 146)" opacity="1">
+<text x="0" y="-6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" fill="#a855f7" text-anchor="start">FormulaVault</text>
+<text x="0" y="14" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#9aa2d8">Offline-first study app for CBSE 11/12 and JEE - 833…</text>
+</g>
+<rect x="60" y="131" width="0" height="1" fill="#a855f7" opacity="0.6">
+<animate attributeName="width" values="0;0" dur="0.1s" fill="freeze"/>
+</rect>
+</g><g>
+<circle cx="34" cy="224" r="9" fill="#0b0e20" stroke="#f472b6" stroke-width="2">
+<animate attributeName="r" values="8;11;8" dur="3.8s" begin="0.6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="34" cy="224" r="3.4" fill="#f472b6"/>
+<g transform="translate(68 224)" opacity="1">
+<text x="0" y="-6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" fill="#f472b6" text-anchor="start">printbridge</text>
+<text x="0" y="14" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#9aa2d8">Self-hosted print server: upload from anywhere, preview…</text>
+</g>
+<rect x="54" y="209" width="0" height="1" fill="#f472b6" opacity="0.6">
+<animate attributeName="width" values="0;0" dur="0.1s" fill="freeze"/>
+</rect>
+</g><g>
+<circle cx="34" cy="302" r="9" fill="#0b0e20" stroke="#34d399" stroke-width="2">
+<animate attributeName="r" values="8;11;8" dur="4.2s" begin="0.8999999999999999s" repeatCount="indefinite"/>
+</circle>
+<circle cx="34" cy="302" r="3.4" fill="#34d399"/>
+<g transform="translate(0 302)" opacity="1">
+<text x="0" y="-6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" fill="#34d399" text-anchor="start">prompt-forge</text>
+<text x="0" y="14" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#9aa2d8">Describe the task, get the prompt that actually works…</text>
+</g>
+<rect x="60" y="287" width="0" height="1" fill="#34d399" opacity="0.6">
+<animate attributeName="width" values="0;0" dur="0.1s" fill="freeze"/>
+</rect>
+</g>
+<circle cx="34" cy="324" r="4" fill="#f472b6" filter="url(#tlglow)">
+<animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+</svg>

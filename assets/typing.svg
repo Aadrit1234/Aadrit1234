@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="76" viewBox="0 0 780 76" fill="none" role="img" aria-label="Aadrit — rotating role titles">
+<title>Aadrit — rotating role titles</title>
+<defs>
+<linearGradient id="tgrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<filter id="tglow" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="4.5" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="30" font-weight="600">
+<clipPath id="tc0"><rect x="125" y="8" width="0" height="56"><animate attributeName="width" values="0;0;370;370;0" keyTimes="0.02;0.44;0.46;0.96;1" dur="60s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#tc0)" opacity="0">
+<text x="135" y="48" fill="url(#tgrad)">Full-Stack Developer</text>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.78;0.96;1" dur="60s" begin="0s" repeatCount="indefinite"/>
+</g>
+<clipPath id="tc1"><rect x="125" y="8" width="0" height="56"><animate attributeName="width" values="0;0;532;532;0" keyTimes="0.02;0.44;0.46;0.96;1" dur="60s" begin="-12s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#tc1)" opacity="0">
+<text x="135" y="48" fill="url(#tgrad)">Offensive Security Researcher</text>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.78;0.96;1" dur="60s" begin="-12s" repeatCount="indefinite"/>
+</g>
+<clipPath id="tc2"><rect x="125" y="8" width="0" height="56"><animate attributeName="width" values="0;0;298;298;0" keyTimes="0.02;0.44;0.46;0.96;1" dur="60s" begin="-24s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#tc2)" opacity="0">
+<text x="135" y="48" fill="url(#tgrad)">AI / ML Explorer</text>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.78;0.96;1" dur="60s" begin="-24s" repeatCount="indefinite"/>
+</g>
+<clipPath id="tc3"><rect x="125" y="8" width="0" height="56"><animate attributeName="width" values="0;0;460;460;0" keyTimes="0.02;0.44;0.46;0.96;1" dur="60s" begin="-36s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#tc3)" opacity="0">
+<text x="135" y="48" fill="url(#tgrad)">Reverse Engineer at Heart</text>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.78;0.96;1" dur="60s" begin="-36s" repeatCount="indefinite"/>
+</g>
+<clipPath id="tc4"><rect x="125" y="8" width="0" height="56"><animate attributeName="width" values="0;0;424;424;0" keyTimes="0.02;0.44;0.46;0.96;1" dur="60s" begin="-48s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#tc4)" opacity="0">
+<text x="135" y="48" fill="url(#tgrad)">Open Source Contributor</text>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.78;0.96;1" dur="60s" begin="-48s" repeatCount="indefinite"/>
+</g>
+</g>
+<g>
+<circle cx="111" cy="41" r="2.6" fill="#22d3ee"/>
+<circle cx="111" cy="51" r="2.6" fill="#a855f7"/>
+<circle cx="111" cy="61" r="2.6" fill="#f472b6"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -1.6;0 0" dur="1.6s" repeatCount="indefinite"/>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" letter-spacing="4.5" fill="#4d558c" text-anchor="middle">
+<text x="390" y="70" opacity="0.75">STATUS: BUILDING THINGS</text>
+</g>
+</svg>

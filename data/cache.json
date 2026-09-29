@@ -1,0 +1,260 @@
+{
+  "user": "Aadrit1234",
+  "name": "Aadrit",
+  "bio": "I'm a Full-Stack Developer, Cybersecurity & Ethical Hacking enthusiast, and AI/ML explorer passionate about understanding technology deeply.",
+  "location": "India",
+  "followers": 0,
+  "publicRepos": 7,
+  "totalStars": 3,
+  "commits": 172,
+  "createdAt": "2025-07-01",
+  "languages": [
+    {
+      "name": "JavaScript",
+      "bytes": 1414904
+    },
+    {
+      "name": "HTML",
+      "bytes": 670453
+    },
+    {
+      "name": "CSS",
+      "bytes": 377067
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 283256
+    },
+    {
+      "name": "Python",
+      "bytes": 8553
+    },
+    {
+      "name": "Makefile",
+      "bytes": 1902
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 1843
+    },
+    {
+      "name": "Shell",
+      "bytes": 1501
+    }
+  ],
+  "repos": [
+    {
+      "name": "filemorph",
+      "desc": "Free online file converter & audio transcriber. Documents, images and audio converted with full content preservation (LibreOffice, pdf2docx, Sharp).",
+      "lang": "CSS",
+      "langs": [
+        {
+          "name": "CSS",
+          "size": 60092
+        },
+        {
+          "name": "JavaScript",
+          "size": 57939
+        },
+        {
+          "name": "HTML",
+          "size": 22955
+        },
+        {
+          "name": "Python",
+          "size": 8553
+        },
+        {
+          "name": "Dockerfile",
+          "size": 587
+        }
+      ],
+      "stars": 0,
+      "forks": 0,
+      "demo": "https://filemorph-dusky.vercel.app",
+      "updated": "2026-09-29"
+    },
+    {
+      "name": "FormulaVault",
+      "desc": "Offline-first study app for CBSE 11/12 and JEE - 833 formula cards, typo-tolerant search, AI tutor on your own API key.",
+      "lang": "HTML",
+      "langs": [
+        {
+          "name": "HTML",
+          "size": 568047
+        },
+        {
+          "name": "JavaScript",
+          "size": 435072
+        },
+        {
+          "name": "CSS",
+          "size": 60798
+        }
+      ],
+      "stars": 0,
+      "forks": 0,
+      "demo": "https://formulav.vercel.app",
+      "updated": "2026-09-26"
+    },
+    {
+      "name": "printbridge",
+      "desc": "Self-hosted print server: upload from anywhere, preview exactly what prints, and print on a Wi-Fi or USB printer — unattended.",
+      "lang": "JavaScript",
+      "langs": [
+        {
+          "name": "JavaScript",
+          "size": 843728
+        },
+        {
+          "name": "CSS",
+          "size": 163825
+        },
+        {
+          "name": "HTML",
+          "size": 63924
+        }
+      ],
+      "stars": 1,
+      "forks": 0,
+      "demo": "https://print-pi-three.vercel.app",
+      "updated": "2026-09-21"
+    },
+    {
+      "name": "prompt-forge",
+      "desc": "Describe the task, get the prompt that actually works. Five AI backends and per-request model selection.",
+      "lang": "JavaScript",
+      "langs": [
+        {
+          "name": "JavaScript",
+          "size": 78165
+        },
+        {
+          "name": "CSS",
+          "size": 28279
+        },
+        {
+          "name": "HTML",
+          "size": 1003
+        }
+      ],
+      "stars": 1,
+      "forks": 0,
+      "demo": "https://prompt-forge-beige-ten.vercel.app",
+      "updated": "2026-08-26"
+    },
+    {
+      "name": "conduit",
+      "desc": "Conduit — E2E-encrypted real-time collaboration rooms (chat, WebRTC file transfer, Vite + Fastify + Postgres)",
+      "lang": "TypeScript",
+      "langs": [
+        {
+          "name": "TypeScript",
+          "size": 283256
+        },
+        {
+          "name": "CSS",
+          "size": 64073
+        },
+        {
+          "name": "HTML",
+          "size": 14524
+        },
+        {
+          "name": "Makefile",
+          "size": 1902
+        },
+        {
+          "name": "Shell",
+          "size": 1501
+        },
+        {
+          "name": "Dockerfile",
+          "size": 1256
+        }
+      ],
+      "stars": 1,
+      "forks": 0,
+      "demo": "https://conduit-liard.vercel.app",
+      "updated": "2026-08-18"
+    },
+    {
+      "name": "blu-blu",
+      "desc": null,
+      "lang": null,
+      "langs": [],
+      "stars": 0,
+      "forks": 0,
+      "demo": "",
+      "updated": "2026-08-11"
+    }
+  ],
+  "contributions": [
+    {
+      "date": "2026-08-26",
+      "count": 20
+    },
+    {
+      "date": "2026-08-11",
+      "count": 20
+    },
+    {
+      "date": "2026-08-08",
+      "count": 9
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1
+    },
+    {
+      "date": "2026-09-21",
+      "count": 53
+    },
+    {
+      "date": "2026-09-19",
+      "count": 5
+    },
+    {
+      "date": "2026-09-18",
+      "count": 13
+    },
+    {
+      "date": "2026-09-29",
+      "count": 20
+    },
+    {
+      "date": "2026-09-04",
+      "count": 1
+    },
+    {
+      "date": "2026-09-03",
+      "count": 5
+    },
+    {
+      "date": "2026-09-01",
+      "count": 6
+    },
+    {
+      "date": "2026-08-30",
+      "count": 2
+    },
+    {
+      "date": "2026-09-20",
+      "count": 2
+    },
+    {
+      "date": "2026-09-17",
+      "count": 3
+    },
+    {
+      "date": "2026-08-18",
+      "count": 8
+    },
+    {
+      "date": "2026-08-09",
+      "count": 4
+    }
+  ],
+  "fetchedAt": "2026-09-29T16:46:10.248Z",
+  "stale": false
+}

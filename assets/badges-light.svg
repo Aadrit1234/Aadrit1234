@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="652" height="44" viewBox="0 0 652 44" fill="none" role="img" aria-label="Status badges">
+<title>Status badges</title>
+<defs>
+<linearGradient id="stripbar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef1fb"/></linearGradient>
+<filter id="stglow" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="2.6" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<rect width="652" height="44" fill="none"/><g transform="translate(0 0)"><rect x="0.6" y="0.6" width="148.8" height="42.8" rx="12" fill="#ffffff"/>
+<rect x="0.6" y="0.6" width="148.8" height="42.8" rx="12" fill="none" stroke="#34d399" stroke-opacity="0.45" stroke-width="1.2"/>
+<circle cx="18" cy="22" r="4" fill="#34d399" opacity="0.35"><animate attributeName="r" values="3;9;3" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0;0.5" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="18" cy="22" r="4" fill="#34d399"/>
+<text x="34" y="20" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#101533">Available</text>
+<text x="34" y="35" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10" fill="#4a5382" letter-spacing="1">open to collabs</text>
+<rect x="0.6" y="41.4" width="148.8" height="2" fill="#34d399" opacity="0.5"><animate attributeName="width" values="0;148.8" dur="1.2s" fill="freeze" begin="0.2s"/></rect>
+b9150</g>
+<g transform="translate(162 0)"><rect x="0.6" y="0.6" width="128.8" height="42.8" rx="12" fill="#ffffff"/>
+<rect x="0.6" y="0.6" width="128.8" height="42.8" rx="12" fill="none" stroke="#0891b2" stroke-opacity="0.45" stroke-width="1.2"/>
+<circle cx="18" cy="22" r="4" fill="#0891b2"/>
+<text x="34" y="20" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#101533">India</text>
+<text x="34" y="35" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10" fill="#4a5382" letter-spacing="1">UTC +05:30</text>
+<rect x="0.6" y="41.4" width="128.8" height="2" fill="#0891b2" opacity="0.5"><animate attributeName="width" values="0;128.8" dur="1.2s" fill="freeze" begin="0.2s"/></rect>
+b5130</g>
+<g transform="translate(304 0)"><rect x="0.6" y="0.6" width="174.8" height="42.8" rx="12" fill="#ffffff"/>
+<rect x="0.6" y="0.6" width="174.8" height="42.8" rx="12" fill="none" stroke="#7c3aed" stroke-opacity="0.45" stroke-width="1.2"/>
+<circle cx="18" cy="22" r="4" fill="#7c3aed"/>
+<text x="34" y="20" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#101533">Full-Stack</text>
+<text x="34" y="35" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10" fill="#4a5382" letter-spacing="1">TS · Node · React</text>
+<rect x="0.6" y="41.4" width="174.8" height="2" fill="#7c3aed" opacity="0.5"><animate attributeName="width" values="0;174.8" dur="1.2s" fill="freeze" begin="0.2s"/></rect>
+b10176</g>
+<g transform="translate(492 0)"><rect x="0.6" y="0.6" width="158.8" height="42.8" rx="12" fill="#ffffff"/>
+<rect x="0.6" y="0.6" width="158.8" height="42.8" rx="12" fill="none" stroke="#db2777" stroke-opacity="0.45" stroke-width="1.2"/>
+<circle cx="18" cy="22" r="4" fill="#db2777"/>
+<text x="34" y="20" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#101533">Security</text>
+<text x="34" y="35" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10" fill="#4a5382" letter-spacing="1">offensive research</text>
+<rect x="0.6" y="41.4" width="158.8" height="2" fill="#db2777" opacity="0.5"><animate attributeName="width" values="0;158.8" dur="1.2s" fill="freeze" begin="0.2s"/></rect>
+b8160</g>
+</svg>

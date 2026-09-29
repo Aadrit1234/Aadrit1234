@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="404" viewBox="0 0 900 404" fill="none" role="img" aria-label="Animated terminal — Aadrit stack and skills">
 <title>Animated terminal — Aadrit stack and skills</title>
 <defs>
-<linearGradient id="tbar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121732"/><stop offset="1" stop-color="#0b0e20"/></linearGradient>
-<linearGradient id="tprompt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+<linearGradient id="tbar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1fb"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<linearGradient id="tprompt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891b2"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
 <filter id="tglow2" x="-60%" y="-60%" width="220%" height="220%">
 <feGaussianBlur stdDeviation="3" result="b"/>
 <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
 <filter id="tsoft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>
-<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.06"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0891b2" stop-opacity="0.06"/><stop offset="1" stop-color="#0891b2" stop-opacity="0"/></linearGradient>
 </defs>
 
-<rect width="900" height="404" rx="18" fill="#0b0e20"/>
+<rect width="900" height="404" rx="18" fill="#ffffff"/>
 <rect width="900" height="40" rx="18" fill="url(#tbar)"/>
 <rect y="22" width="900" height="18" fill="url(#tbar)"/>
-<rect y="39" width="900" height="1" fill="#232b56"/>
+<rect y="39" width="900" height="1" fill="#c9d0ee"/>
 <circle cx="18" cy="20" r="5.5" fill="#ff5f57"/>
 <circle cx="36" cy="20" r="5.5" fill="#febc2e"/>
 <circle cx="54" cy="20" r="5.5" fill="#28c840"/>
-<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="12" fill="#4d558c" letter-spacing="1.5">
+<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="12" fill="#8e97c0" letter-spacing="1.5">
 <text x="450" y="24" text-anchor="middle">aadrit@dev — ~/profile</text>
 </g>
 <g>
-<rect x="406" y="12" width="88" height="16" rx="8" fill="#05060f" opacity="0.55"/>
-<text x="450" y="23.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5" letter-spacing="1.4" fill="#22d3ee" text-anchor="middle" opacity="0.9">LIVE TTY</text>
-<rect x="406" y="12" width="88" height="16" rx="8" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.5">
+<rect x="406" y="12" width="88" height="16" rx="8" fill="#ffffff" opacity="0.55"/>
+<text x="450" y="23.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5" letter-spacing="1.4" fill="#0891b2" text-anchor="middle" opacity="0.9">LIVE TTY</text>
+<rect x="406" y="12" width="88" height="16" rx="8" fill="none" stroke="#0891b2" stroke-width="1" opacity="0.5">
 <animate attributeName="stroke-opacity" values="0.6;0.12;0.6" dur="2.2s" repeatCount="indefinite"/>
 </rect>
 </g>
@@ -35,7 +35,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln0)" opacity="0">
 <text x="26" y="74" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="74" fill="#22d3ee">whoami</text>
+<text x="52" y="74" fill="#0891b2">whoami</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="0s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -45,7 +45,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln1)" opacity="0">
 
-<text x="66" y="99" fill="#9aa2d8">aadrit — full-stack / security / ai-ml</text>
+<text x="66" y="99" fill="#4a5382">aadrit — full-stack / security / ai-ml</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="1.5s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -55,7 +55,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln2)" opacity="0">
 <text x="26" y="124" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="124" fill="#22d3ee">ls ./repos</text>
+<text x="52" y="124" fill="#0891b2">ls ./repos</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="3s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -65,7 +65,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln3)" opacity="0">
 
-<text x="66" y="149" fill="#9aa2d8">conduit  printbridge  filemorph  FormulaVault  prompt-forge</text>
+<text x="66" y="149" fill="#4a5382">conduit  printbridge  filemorph  FormulaVault  prompt-forge</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="4.5s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -75,7 +75,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln4)" opacity="0">
 <text x="26" y="174" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="174" fill="#22d3ee">cat stack.txt</text>
+<text x="52" y="174" fill="#0891b2">cat stack.txt</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="6s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -85,7 +85,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln5)" opacity="0">
 
-<text x="66" y="199" fill="#9aa2d8">TypeScript · Node · Fastify · Postgres · React · Three.js</text>
+<text x="66" y="199" fill="#4a5382">TypeScript · Node · Fastify · Postgres · React · Three.js</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="7.5s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -95,7 +95,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln6)" opacity="0">
 
-<text x="66" y="224" fill="#9aa2d8">Burp · Nmap · Ghidra · PyTorch · LLM agents</text>
+<text x="66" y="224" fill="#4a5382">Burp · Nmap · Ghidra · PyTorch · LLM agents</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="9s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -105,7 +105,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln7)" opacity="0">
 <text x="26" y="249" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="249" fill="#22d3ee">nmap --scan-me</text>
+<text x="52" y="249" fill="#0891b2">nmap --scan-me</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="10.5s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -115,7 +115,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln8)" opacity="0">
 
-<text x="66" y="274" fill="#9aa2d8">open ports: 22 80 443 8080</text>
+<text x="66" y="274" fill="#4a5382">open ports: 22 80 443 8080</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="12s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -125,7 +125,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln9)" opacity="0">
 
-<text x="66" y="299" fill="#9aa2d8">vulnerabilities: too many to list</text>
+<text x="66" y="299" fill="#4a5382">vulnerabilities: too many to list</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="13.5s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -135,7 +135,7 @@
 </rect></clipPath>
 <g clip-path="url(#ln10)" opacity="0">
 <text x="26" y="324" fill="url(#tprompt)" font-weight="700">❯</text>
-<text x="52" y="324" fill="#22d3ee">git push origin main</text>
+<text x="52" y="324" fill="#0891b2">git push origin main</text>
 <animate attributeName="opacity" values="0;1" keyTimes="0;0.12" dur="1.5s" begin="15s" repeatCount="indefinite"/>
 </g>
 </g>
@@ -151,13 +151,13 @@
 </g>
 </g>
 <g>
-<rect x="26" y="347.5" width="8" height="18.5" fill="#22d3ee" filter="url(#tglow2)" opacity="0.9">
+<rect x="26" y="347.5" width="8" height="18.5" fill="#0891b2" filter="url(#tglow2)" opacity="0.9">
 <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="1.05s" repeatCount="indefinite"/>
 </rect>
 </g>
 <rect x="0" y="40" width="900" height="364" fill="url(#scan)" opacity="0.5"/>
-<rect x="0" y="0" width="900" height="404" rx="18" fill="none" stroke="#232b56" stroke-width="1.2"/>
-<rect x="0" y="0" width="900" height="404" rx="18" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.18">
+<rect x="0" y="0" width="900" height="404" rx="18" fill="none" stroke="#c9d0ee" stroke-width="1.2"/>
+<rect x="0" y="0" width="900" height="404" rx="18" fill="none" stroke="#0891b2" stroke-width="1" opacity="0.18">
 <animate attributeName="stroke-opacity" values="0.28;0.05;0.28" dur="5s" repeatCount="indefinite"/>
 </rect>
 </svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="268" viewBox="0 0 470 268" fill="none" role="img" aria-label="prompt-forge card">
+<title>prompt-forge card</title>
+<defs>
+<linearGradient id="pgt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f472b6" stop-opacity="0.16"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></linearGradient>
+<filter id="pglow" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="2.4" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<g>
+<rect x="0.5" y="0.5" width="469" height="267" rx="18" fill="#0b0e20" stroke="#232b56" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="469" height="267" rx="18" fill="url(#pgt)"/>
+<rect x="28" y="0" width="3" height="268" fill="#f472b6" opacity="0.9">
+<animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
+</rect>
+<g>
+<rect x="323.2" y="26" width="75.6" height="20" rx="10" fill="#a855f7" opacity="0.14" stroke="#a855f7" stroke-opacity="0.5"/>
+<text x="361" y="40" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5" letter-spacing="1" fill="#a855f7" text-anchor="middle">LIVE DEMO</text>
+</g>
+<g>
+<rect x="404.8" y="26" width="37.2" height="20" rx="10" fill="#f0b429" opacity="0.14" stroke="#f0b429" stroke-opacity="0.5"/>
+<text x="423.4" y="40" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5" letter-spacing="1" fill="#f0b429" text-anchor="middle">★ 1</text>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace">
+<text x="28" y="42" font-size="17" font-weight="700" fill="undefined">prompt-forge</text>
+</g>
+<g font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif">
+<text x="28" y="76" font-size="12.5" fill="#9aa2d8">Describe the task, get the prompt that actually works.
+<animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/></text>
+<text x="28" y="95" font-size="12.5" fill="undefined">Five AI backends and per-request model selection.
+<animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.32s" fill="freeze"/></text>
+</g>
+<rect x="28" y="206" width="301.17" height="7" rx="3.5" fill="#f7df1e">
+<animate attributeName="width" values="0;301.17" dur="0.9s" begin="0.35s" fill="freeze"/>
+</rect>
+<rect x="329.17" y="206" width="108.96" height="7" rx="3.5" fill="#a855f7">
+<animate attributeName="width" values="0;108.96" dur="0.9s" begin="0.35s" fill="freeze"/>
+</rect>
+<rect x="438.14" y="206" width="3.86" height="7" rx="3.5" fill="#e34c26">
+<animate attributeName="width" values="0;3.86" dur="0.9s" begin="0.35s" fill="freeze"/>
+</rect>
+<circle cx="32" cy="228" r="3.6" fill="#f7df1e"/>
+<text x="41" y="232" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#9aa2d8">JavaScript</text>
+<circle cx="170" cy="228" r="3.6" fill="#a855f7"/>
+<text x="179" y="232" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#9aa2d8">CSS</text>
+<circle cx="308" cy="228" r="3.6" fill="#e34c26"/>
+<text x="317" y="232" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#9aa2d8">HTML</text>
+</g>
+</svg>
